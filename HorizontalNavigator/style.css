@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.upper{
+    width: 800px;
+    height: 80px;
+    background-color: lightsalmon;
+}
+ul{
+    list-style-type: none;
+    height: 40px;
+    background-color: lightcoral;
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+}
+
+ul li{
+    float: left;
+    width: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: darkblue;
+    color: snow;
+    font-weight: 12px;
+}
+
+ul li:hover{
+    background-color: hotpink;
+    color: blue;
+}
+
+.lower{
+    width: 800px;
+    height: 80px;
+    background-color: lightsalmon;
+}
